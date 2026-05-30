@@ -1,4 +1,4 @@
-**ABSTRACT**
+# ABSTRACT
 
 This project provides a comprehensive analysis of the sales performance, customer behavior, product trends, and store operations of a global electronics retailer. In a highly competitive retail environment, organizations often struggle to transform large volumes of transactional data into actionable insights for strategic decision-making. The project was undertaken to address this challenge by developing an interactive business intelligence solution capable of identifying revenue drivers, customer purchasing patterns, and operational performance gaps. The aim was to transform raw retail data into a dynamic decision-support system that enhances business performance and profitability.
 
