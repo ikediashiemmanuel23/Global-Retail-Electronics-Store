@@ -6,5 +6,7 @@ This project provides a comprehensive analysis of the sales performance, custome
 
 The methodology adopted a chronological analytical framework comprising descriptive, diagnostic, and prescriptive analytics. Interactive dashboards were designed to provide Overview, Customer, Product, and Stores Performance insights. Advanced visualizations such as trend analysis, geographical mapping, drill-through reports, KPI cards were implemented to facilitate deeper exploration of business performance across regions and product categories. The project successfully transformed static retail data into an interactive business intelligence solution that improved visibility into customer retention, product profitability, sales trends, and regional performance.
 
+[view live report interaction here](https://app.powerbi.com/view?r=eyJrIjoiMWZlNjBjOGYtZmI3Zi00ZDQ1LWEwYTQtODk0ZjBkYzA4MTFmIiwidCI6IjMyMGFhMGNkLWZlZWEtNDlhYy1iMWYzLTQyNzBiYmQ1MjAyMSJ9&pageName=5c935600910ed41503a1)
+
 In summary, the dashboard significantly improved the accessibility and interpretation of business data, enabling faster and more informed decision-making. The analysis revealed opportunities to improve customer retention, optimize product offerings, and strengthen regional sales strategies. It is recommended that the organization adopt predictive analytics and demand forecasting techniques, enhance customer loyalty initiatives, and continuously monitor key performance indicators to maximize revenue growth, operational efficiency, and long-term business sustainability.
 
