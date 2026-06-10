@@ -1,5 +1,8 @@
 # ABSTRACT
 
+<img width="1104" height="506" alt="image" src="https://github.com/user-attachments/assets/930ef01a-1fac-4e02-9b7f-5d3ab8f20654" />
+
+
 This project provides a comprehensive analysis of the sales performance, customer behavior, product trends, and store operations of a global electronics retailer. In a highly competitive retail environment, organizations often struggle to transform large volumes of transactional data into actionable insights for strategic decision-making. The project was undertaken to address this challenge by developing an interactive business intelligence solution capable of identifying revenue drivers, customer purchasing patterns, and operational performance gaps. The aim was to transform raw retail data into a dynamic decision-support system that enhances business performance and profitability.
 
 **Materials and Methods:** The project utilized Microsoft Excel for preliminary data inspection and Power BI as the primary analytical platform. The dataset consisted of Dimensions and Fact tables. Data preparation involved cleaning, transformation, and establishing relationships between tables to create a robust data model. DAX measures were developed to calculate key performance indicators including Total Revenue, Profit, Average Order Value, Customer Repeat Rate, Churn Rate, Customer's Return Rate, etc.
