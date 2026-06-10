@@ -20,3 +20,29 @@ VAR _SYOY =
 
 Unique Customers = DISTINCTCOUNT(Sales[CustomerKey])
 
+// Measure to calculate Calculate Custommers Return Rate
+
+Customers Return Rate = 
+     VAR ReturningCustomers = COUNTROWS(
+                                        Filter(VALUES(Sales[CustomerKey]), 
+                                        CALCULATE(DISTINCTCOUNT(Sales[Order ID]))>1)
+                                        )
+     VAR TotalCustomers = DISTINCTCOUNT(Sales[CustomerKey])
+     RETURN
+     DIVIDE(ReturningCustomers, TotalCustomers, 0)
+
+// Measure to calculate Average Order Value
+
+Average Order Value = 
+DIVIDE([Total Sales], DISTINCTCOUNT(Sales[Order ID]), 0)
+
+// Measure to Calculate Churn Rate
+
+Churn Rate = 
+     VAR ReturningCustomers = COUNTROWS(
+                                        Filter(VALUES(Sales[CustomerKey]), 
+                                        CALCULATE(DISTINCTCOUNT(Sales[Order ID]))>1))
+     VAR TotalCustomers = DISTINCTCOUNT(Sales[CustomerKey])
+     VAR ChurnedCustomers = TotalCustomers - ReturningCustomers
+     RETURN
+     DIVIDE(ChurnedCustomers, TotalCustomers, 0)
