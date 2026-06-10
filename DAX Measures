@@ -1,3 +1,22 @@
-// Measure to calculate Profit Mmargi
+// Measure to calculate Profit Mmargin
 
 Profit Margin % = [Profit] / [Total Sales]
+
+// Measure to calculate Yearly Sales Growth
+
+Sales YOY = 
+VAR SCY = [Total Sales]
+VAR SLY = [Sales LY]
+VAR SYOY = DIVIDE(SCY - SLY, SLY, 0)
+VAR _SYOY = 
+            SWITCH(TRUE,
+                    SYOY > 0, UNICHAR(9650) & " " & FORMAT(SYOY, "0.0%"),
+                    SYOY < 0, UNICHAR(9660) & " " & FORMAT(SYOY, "0.0%"),
+                    FORMAT(SYOY, "0.O%"))
+    RETURN
+    _SYOY
+
+// Measure to calculate Unique Custommers
+
+Unique Customers = DISTINCTCOUNT(Sales[CustomerKey])
+
